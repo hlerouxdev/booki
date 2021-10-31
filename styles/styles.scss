@@ -196,6 +196,70 @@ header{
     }
 }
 
+
+.section{
+    background-color: $gris;
+    padding: 25px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main{
+    display: flex;
+    width: 90%;
+    max-width: 1300px;
+    h2{
+        font-size: 1em;
+    }
+    a, a:visited{
+        color: black;
+
+        .blue{
+            color: $bleu;
+        }
+        .grey{
+            color: $gris;
+        }
+    }
+}
+
+#hebergements{
+    width: 60%;
+    margin-right: 5%;
+}
+
+.hebergements_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hebergements_element{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 5px;
+    border-radius: 25px;
+    width: 30%;
+    margin: 10px 0 10px 0;
+
+    img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 25px 25px 0 0;
+    }
+    &_info{
+        margin: 0 0 10px 10px;
+    }
+}
+
+#populaires{
+    width: 30%;
+}
+
 footer{
     background-color: $gris;
     display: flex;

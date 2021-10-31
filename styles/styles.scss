@@ -258,7 +258,40 @@ header{
 
 #populaires{
     width: 30%;
+    &_head{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        i{
+            font-size: 1.3em;
+        }
+    }
 }
+
+.populaires-box{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    height: 150px;
+    margin: 5px 0 10px;
+
+    img{
+        border-radius: 15px 0 0 15px;
+        width: 40%;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    &_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
 
 footer{
     background-color: $gris;

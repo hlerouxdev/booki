@@ -1,3 +1,5 @@
+@import "_var";
+
 @media only screen and (max-width: 992px) {
     #filtres{
         max-width: 750px;
@@ -25,5 +27,97 @@
     .populaires-box{
         width: 40%;
         background-color: $gris;
+    }
+
+    .activites-content{
+        flex-direction: column;
+        &_div{
+            width: 100%;
+            margin-bottom: 10px;
+            &_right{
+                width: 49%;
+            }
+        }
+        &_element{
+            margin-bottom: 10px;
+            &_right{margin: 0;}
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+
+        img{
+            margin: 20px 0 20px 55px;
+            height: 100px;
+        }
+
+        ul{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            li{
+                font-size: 1.5em;
+                margin: 0;
+                width: 50%;
+                text-align: center;
+                border-top: none;
+                border-bottom: 5px solid white;
+                &:hover{
+                    border-top: none;
+                border-bottom: 5px solid $bleu;
+                }
+            }
+        }
+    }
+    .search{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #filtres{
+        width: 90%;
+        h1{
+            width: 100%;
+        }
+
+        .filtre{
+            margin: 10px 10px 10px 0;
+        }
+    }
+    #main{
+        align-items: center;
+    }
+    .section{
+        padding: 0;
+    }
+    #populaires{
+        background-color: $gris;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        &_head{
+            width: 90%;
+        }
+    }
+    .populaires-box{
+        width: 90%;
+    }
+
+    #hebergements{
+        width: 90%;
+        background-color: white;
+        margin: 20px 0 20px;
+    }
+
+    .hebergements_element{
+        width: 100%;
+    }
+
+    .footer-content{
+        flex-direction: column;
     }
 }

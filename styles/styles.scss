@@ -156,6 +156,7 @@ header{
 #filtres{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     h2{
         margin-right: 20px;
         font-weight: bold;
@@ -173,11 +174,6 @@ header{
     h2{
         margin: 0;
         margin-left: 25px;
-    }
-    &_container{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
     }
 
     &_icone_container{
@@ -311,3 +307,5 @@ footer{
         padding: 0;
     }
 }
+
+@import 'utils/queries'

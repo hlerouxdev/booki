@@ -1,0 +1,29 @@
+@media only screen and (max-width: 992px) {
+    #filtres{
+        max-width: 750px;
+    }
+    #main{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .section{
+        border-radius: 0;
+    }
+    #hebergements{
+        width: 100%;
+    }
+    .hebergements_element{
+        width: 40%;
+    }
+    #populaires{
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .populaires-box{
+        width: 40%;
+        background-color: $gris;
+    }
+}

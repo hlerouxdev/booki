@@ -191,4 +191,69 @@ header {
 .info p {
   margin-left: 10px;
 }
+
+#filtres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#filtres h2 {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.filtre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #F2F2F2;
+  border-radius: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+.filtre h2 {
+  margin: 0;
+  margin-left: 25px;
+}
+
+.filtre_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.filtre_icone_container {
+  background-color: #DEEBFF;
+  color: #0065FC;
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filtre:hover {
+  -webkit-box-shadow: black 0 0 5px 0;
+          box-shadow: black 0 0 5px 0;
+}
 /*# sourceMappingURL=styles.css.map */

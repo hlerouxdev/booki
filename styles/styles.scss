@@ -151,3 +151,46 @@ header{
         margin-left: 10px;
     }
 }
+
+#filtres{
+    display: flex;
+    align-items: center;
+    h2{
+        margin-right: 20px;
+        font-weight: bold;
+    }
+}
+
+.filtre{
+    display: flex;
+    align-items: center;
+    border: 2px solid $gris;
+    border-radius: 50px;
+    height: 50px;
+    margin: 20px;
+
+    h2{
+        margin: 0;
+        margin-left: 25px;
+    }
+    &_container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &_icone_container{
+        background-color: $bleuclair;
+        color: $bleu;
+        height: 51px;
+        width: 51px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &:hover{
+        box-shadow: black 0 0 5px 0;
+    }
+}
